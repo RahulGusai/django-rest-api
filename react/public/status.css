@@ -1,0 +1,35 @@
+.status-wrapper{
+    margin-left:10px;
+    justify-self: start;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    align-content: center;
+    align-items: center;
+}
+
+.status-wrapper .loading {
+    font-size: 18px;
+}
+
+.status-wrapper .success-info {
+    font-size: 18px;
+    color: green;
+}
+
+.status-wrapper .error-info {
+    font-size: 18px;
+    color: red;
+}
+
+.status-wrapper .success-icon{
+    color: green;
+    font-size: 18px;
+}
+
+.status-wrapper .failure-icon {
+    color: red;
+    font-size: 18px;
+}
+

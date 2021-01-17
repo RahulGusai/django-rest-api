@@ -1,0 +1,45 @@
+.app-wrapper {
+    height: 100vh;
+    background: #002366;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.form-container {
+    width: 500px;
+    height: 280px;
+    background: white;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-gap: 20px;
+    justify-items: center;
+}   
+
+
+.form-container label {
+    margin-top: 10px;
+    font-family: unquote("Roboto");
+    font-size: 34px;
+}
+
+.form-container .email-id{
+    width: 95%;
+    height: 40px;
+    justify-self: center;
+}
+
+.form-container .submit-btn{
+    width: 95%;
+    height:40px;
+    margin-top: 10px;
+    font-family: unquote("Roboto");
+    background: #002366;
+    color: white;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 4px;
+}
