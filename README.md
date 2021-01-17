@@ -12,29 +12,29 @@ Do setup via following steps-
 
 2. Install React Dependenceies
 
-		*Do cd react and npm install to install the react dependencies.
+		Do cd react and npm install to install the react dependencies.
   
-		*cd .. (To come back to main repository directory)
+		cd .. (To come back to main repository directory)
 
 3. Install Django Dependencies
   		
-		*Install django and djangorestframework packages using pip3. (pip3 install <package_name>)
+		Install django and djangorestframework packages using pip3. (pip3 install <package_name>)
 
 4. Do setup
   		
-		*Open two terminals
+		Open two terminals
 		
-  		*In 1st terminal, go to react directory inside main repository directory and in 2nd terminal go to djangorestapi directory inside main repository directory.
+  		In 1st terminal, go to react directory inside main repository directory and in 2nd terminal go to djangorestapi directory inside main repository directory.
   
 5. Run Django development server(1st Terminal)
   		
-		*Migrate the changes to the database by running python3 manage.py makemigrations and python3 manage.py migrate respectfully.
+		Migrate the changes to the database by running python3 manage.py makemigrations and python3 manage.py migrate respectfully.
   
-		*Run the development server using python3 runserver localhost:8000 
+		Run the development server using python3 runserver localhost:8000 
 
 6. Run React development server(2nd Terminal)
   
-		*Run npm start
+		Run npm start
   
  
  Note: Proxy server has already been set to localhost:8000 in package.json file, in case you want to run the django server with some other port combination, make     sure you have changed the same in package.json file too.
