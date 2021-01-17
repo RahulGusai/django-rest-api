@@ -36,7 +36,9 @@ Run the App-
 2. In order to fetch the recorder subscriptions, simply run the "curl http://localhost:8000/subscribe/users | json_pp" command on the terminal.
 
 Example-
+
 Command-  curl http://localhost:8000/subscribe/users | json_pp
+
 Output - {
            "users" : [
               {
